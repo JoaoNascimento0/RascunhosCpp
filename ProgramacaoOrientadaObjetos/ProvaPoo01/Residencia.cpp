@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-#include "Aluguel.h"
-#include "Residencia.h"
-#include "Seguro.h"
+#include "Aluguel.hpp"
+#include "Residencia.hpp"
+#include "Seguro.hpp"
 
 Residencia::Residencia(string m, const string &pl, const string &cat, float p,
                        int d, int at)

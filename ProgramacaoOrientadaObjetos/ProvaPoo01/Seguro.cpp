@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-#include "Seguro.h"
+#include "Seguro.hpp"
 
 Seguro::Seguro(float plan) : plano(plan) {}
 Seguro::~Seguro() { cout << "\nFim do Seguro" << endl; }
